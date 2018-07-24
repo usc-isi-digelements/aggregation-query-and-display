@@ -1,25 +1,20 @@
 {
   "name": "aggregation-query-and-display",
-  "description": "A Polymer Element that builds and runs an elasticsearch aggregation query and shows the transformed results in a bar chart.",
-  "version": "2.4.5",
-  "authors": [
-    "Next Century Corporation"
-  ],
-  "keywords": [
-    "web-component",
-    "polymer"
-  ],
+  "description":
+    "A Polymer Element that builds and runs an elasticsearch aggregation query and shows the transformed results in a bar chart.",
+  "version": "2.4.6",
+  "authors": ["Next Century Corporation"],
+  "keywords": ["web-component", "polymer"],
   "main": "aggregation-query-and-display.html",
-  "homepage": "https://github.com/usc-isi-digelements/aggregation-query-and-display/",
-  "ignore": [
-    "/.*",
-    "/test/"
-  ],
+  "homepage":
+    "https://github.com/usc-isi-digelements/aggregation-query-and-display/",
+  "ignore": ["/.*", "/test/"],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.2",
-    "aggregation-display": "usc-isi-digelements/aggregation-display#2.4.6",
-    "build-and-run-aggregation": "usc-isi-digelements/build-and-run-aggregation#2.4.2",
-    "elastic-error": "usc-isi-digelements/elastic-error#2.0.0",
+    "aggregation-display": "usc-isi-digelements/aggregation-display#^2.4.6",
+    "build-and-run-aggregation":
+      "usc-isi-digelements/build-and-run-aggregation#^2.4.2",
+    "elastic-error": "usc-isi-digelements/elastic-error#^2.0.0",
     "iron-flex-layout": "PolymerElements/iron-flex-layout#^2.0.0",
     "paper-styles": "PolymerElements/paper-styles#^2.0.0"
   },
